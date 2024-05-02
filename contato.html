@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>carro de luxo</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="caixa">
+            <h1><img src="logoo.png">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">home</a></li>
+                        <li><a href="contato.html">contatos</a></li>
+                        <li><a href="produtos.html">produtos</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=Su7cGCX_mq4">lamborghini</a>
+                    </ul>
+                </nav>
+    </header>
+        <form>
+            <label>Nome completo</label>
+            <input id="nome completo" placeholder="nome completo" type="text">
+            <label>Email</label>
+            <input id="email" placeholder="seuemail@email.com" type="email">
+            <label>Telefone</label>
+            <input id="Tefefone" placeholder="(xx) xxxx-xxxx" type="tel">
+            
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" requirrows="10" id="mensagem"></textarea>
+
+            <div>
+           <p>Como prefere nosso contato?</p>
+            <label for="radio-email">Email</label>
+            <input type="radio" name="contato" value="email" id="radio-email">
+
+            <label for="radio_telefone">Telefone</label>
+            <input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+            <label for="radio-whatsapp" >whatsapp</label>
+            <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+            </div>
+            
+            <label class="checkbox" >
+                <input type="checkbox" name="contato" checked id="contato">
+                Gostaria de receber o nosso contato?
+            </label>
+            <div>
+<p>Qual horário prefere ser atendido?</p>
+            <select>
+                <option>Manhã</option>
+                <option>Tarde</option>
+                <option>Noite</option>
+            </select>
+
+        </div>
+        <input type="submit" class="enviar" value="Enviar Formulario">
+        </form>
+        
+    <footer>
+        <img src="logoo.png">
+        <p id="id_footer" class="p_footer">&copy;copyright carro de luxo - desenvolvido por: Emilli</p>
+    </footer>
+</body>
